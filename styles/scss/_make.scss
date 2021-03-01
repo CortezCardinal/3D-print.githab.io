@@ -1,0 +1,92 @@
+ .item__body
+ {
+ 	display: flex;
+ 	align-items: center;
+ 	flex-direction: column;
+ 	justify-content: space-between;
+ 	border-radius: 35px;
+ 	width: 370px;
+ 	height: 298px;
+ 	background: url("../../img/bg/bg-card.png")no-repeat center top/cover;
+ 
+ }
+ .make-body__card
+ {
+ 	position: relative;
+ 	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+ }
+ .card__img-item
+ {
+ 	position: relative;
+    bottom: 73px;
+ }
+ .card__text
+ {
+ 	height: 100px;
+ 	width: 228px;
+ 	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+ }
+ .card__text-description
+ {
+ 	position: relative;
+    bottom: -12px;
+ }
+ .make-body__items
+ {
+ 	padding-top: 138px;
+ 	display: flex;
+ 	flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ .make-body__card-def
+ {
+ 	position: relative;
+    bottom: 50px;
+ }
+ .card-img-third
+ {
+ 	    bottom: 47px;
+ }
+ .item__body-row
+ {
+ 	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 120px;
+ }
+ .make-body__card-medic
+ {
+ 	    position: relative;
+    bottom: -60px;
+ }
+ .card-img-medic {
+     bottom: 73px;  
+}
+.card__text-third
+{
+	width: 262px;
+}
+.make-body__card-auto
+{
+	    position: relative;
+    bottom: 8px;
+}
+.make-body__card-model
+{
+	position: relative;
+    bottom: 16px;
+}
+.make-body
+{
+	padding-bottom: 180px;
+}

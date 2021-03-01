@@ -1,0 +1,165 @@
+.cost
+{
+	background: url("../../img/bg/bgcost.png") no-repeat center top/cover;
+	position: relative;
+}
+.cost-body__title
+{
+	padding-top: 300px;
+}
+.cost-top
+{
+	position: absolute;
+	top:0;
+	width: 100%;
+}
+.cost-material__body-title
+{
+	color: #2C2F36;
+	opacity: 0.4;
+}
+.cost-material__body
+{
+	width: 470px;
+    background-color: #F1F5F8;
+    border-radius: 35px;
+    display: flex;
+   
+    justify-content: center;
+}
+.cost-material__body-item
+{
+	width: 390px;
+}
+.cost-material__body-text
+{
+	position: relative;
+	display: flex;
+	width: 220px;
+	justify-content: space-between;
+}
+.cost-material__link:nth-child(1)
+{
+	width: 100px;
+}
+.cost-material__link:nth-child(2)
+{
+	width: 86.33px;
+}
+.cost-material__link:after
+{
+    transition: 0.3s;
+    bottom: -8px;
+	content: "";
+    border-radius: 79px;
+   	background-color: rgba(251, 140, 0, 0);
+    transition: 0.3s;
+    width: inherit;
+    height: 3px;
+    position: absolute;
+    display: block;
+}
+ 
+.cost-material__link-active:after
+{ 
+	background-color: rgba(251,140,0,1);
+}
+.material__body-title-active
+{
+	 color: rgba(251,140,0,1);
+	 opacity: 1;
+}
+.box-info__body-title-cross
+{
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.cross-item
+{
+	position: absolute;
+
+	display: block;
+	width: 12px;
+	height: 4px;
+	background: #2C2F36;
+	border-radius: 70px;
+}
+.cross-item:nth-child(1)
+{
+	transform: rotateZ(90deg);
+}
+.box-info__body-title
+{
+	    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cost-material__box-info
+{
+	padding-top: 40px;
+}
+.cost-material__body-text
+{
+	padding-top: 44px;
+}
+.box-info__body-text
+{
+
+	 
+}
+.box-info__body-text
+{
+ 	padding-top: 16px; 
+	border-bottom: 3px solid #B4BBCE;
+	height: 0;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 19.6px;
+ 	transition: height 1s;
+
+    
+}
+.box-info__body-text_active
+{
+ 
+	height: 100px;
+	 transition: height 0.25s ease-in;
+
+}
+/*.box-info__text-description
+{
+	 padding-bottom: 19px; 
+}*/
+.cost-body__cards
+{
+	padding-top: 65px;
+}
+.box-info__body-item
+{
+	padding-top: 16px;
+}
+.box-info__body-item:last-child
+{
+	padding-bottom: 44px;
+}
+.point_active
+{
+	color: #2F80ED;
+}
+.cross-item_active
+{
+background-color: 	#2F80ED;
+}
+.cross-item_active:nth-child(1)
+{
+	transform: rotateZ(0deg);
+}
+.point,
+.box-info__body-title-cross
+{
+	cursor: pointer;
+}

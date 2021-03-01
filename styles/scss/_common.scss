@@ -1,0 +1,133 @@
+$main-text-color:  #2C2F36; 
+* 
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+a 
+{
+	text-decoration: none;
+	cursor:pointer; 
+}
+
+a:hover 
+{
+	text-decoration:none;    
+}
+button
+{
+	cursor: pointer;
+}
+input,button,button:hover,input:hover,input:active
+{ 
+	border:none; 
+} 
+input:active, input:hover, input:focus 
+{
+	outline: 0;
+	outline-offset: 0;
+}
+button:active, button:focus 
+{
+	outline: none;
+}
+button::-moz-focus-inner 
+{
+	border: 0;
+}
+/*Gilroy-Extrabold 800*/
+@font-face 
+{
+	font-family: Gilroy-Extrabold;
+	src: url("../fonts/Extrabold/Gilroy-Extrabold.ttf"),
+	url("../fonts/Extrabold/Gilroy-Extrabold.ttf") format("truetype"), 
+	url("../fonts/Extrabold/Gilroy-Extrabold.woff") format("woff"),
+	url("../fonts/Extrabold/Gilroy-Extrabold.woff2") format("woff2");
+}
+/*Gilroy-Extrabold 800*/
+/*Gilroy-Bold 700*/
+@font-face 
+{
+	font-family: Gilroy-Bold;
+	src: url("../fonts/Bold/Gilroy-Bold.ttf"),
+	url("../fonts/Bold/Gilroy-Bold.ttf") format("truetype"), 
+	url("../fonts/Bold/Gilroy-Bold.woff") format("woff"),
+	url("../fonts/Bold/Gilroy-Bold.woff2") format("woff2");
+}
+/*Gilroy-Bold 700*/
+/*Gilroy-Semibold 600*/
+@font-face 
+{
+	font-family:Gilroy-Semibold;
+	src: url("../fonts/Semibold/Gilroy-Semibold.ttf"),
+	url("../fonts/Semibold/Gilroy-Semibold.ttf") format("truetype"), 
+	url("../fonts/Semibold/Gilroy-Semibold.woff") format("woff"),
+	url("../fonts/Semibold/Gilroy-Semibold.woff2") format("woff2");
+}
+/*Gilroy-Semibold 600*/
+/*Gilroy-Medium 500*/
+@font-face 
+{
+	font-family: Gilroy-Medium;
+	src: url("../fonts/Medium/Gilroy-Medium.ttf"),
+	url("../fonts/Medium/Gilroy-Medium.ttf") format("truetype"), 
+	url("../fonts/Medium/Gilroy-Medium.woff") format("woff"),
+	url("../fonts/Medium/Gilroy-Medium.woff2") format("woff2");
+}
+/*Gilroy-Medium 500*/
+
+h1,
+.title
+{
+	font-family: Gilroy-Extrabold;
+	font-size: 48px;
+	line-height: 59px;
+	color: $main-text-color;
+}
+h2,.subtitle
+{
+	font-family: Gilroy-Bold;
+	font-size: 18px;
+	line-height: 25.2px;
+	color: $main-text-color;
+}
+p,
+.description
+{
+	font-family: Gilroy-Medium;
+	font-size: 16px;
+	line-height: 22.4px;
+	color: $main-text-color;
+}
+h3,
+.point
+{
+	font-family:Gilroy-Semibold;
+	font-size: 16px;
+	line-height: 22.4px;
+	color: $main-text-color;
+}
+.container
+{
+	width: 1600px;
+	margin: 0 auto;
+}
+.container__body
+{
+	width: 1170px;
+	margin: 0 auto;
+
+}
+.header__logo,
+.menu__list-item
+ 
+{
+	 color: $main-text-color;
+}
+ 
+
+.header
+{
+	background: url("../../img/bg/bgheader.png") no-repeat center top/cover;
+}
